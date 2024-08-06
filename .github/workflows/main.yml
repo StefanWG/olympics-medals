@@ -7,9 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./olympics
+    
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v2 # Checkout the repository content to github runner.
